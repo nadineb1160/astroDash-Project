@@ -23,16 +23,29 @@ This project came about after finding many horoscope and astrology APIS in our r
 #
 We then pivoted to a dashboard with an astrological theme so that more elements could be incorporated. Kasey grabbed more API data and we began creating the horoscope calculators. The backend seemed to be more managable so I stepped in to help manage the project since I was working on both the front and backend. Rand had responsibilty of designing the UI and we worked together to learn a new framework. The pivot cause setbacks for him and our team had very little communication about the frontend. The day before the project was due, he finally showed us the website and it took hours of hard work of kasey to integrate his back end. Unfortunely, the backend didn't look very polished which is why I created a new frontend and restructured the backend. 
 
+### Stretch Goals:
+#
+- Validation of cities
+- Modal closes after submit pressed
+- More information about Horoscopes
+- gphiy button, generated playlist (with keyword), moon-phase
+
 
 ## Website Snapshot
 ===================
-
-![Image](Images/lrg-screenshot.png)
-![Image](Images/sm-screenshot.png)
+### Desktop:
+![Image](assets/img1.png)
+### Mobile:
+![Image](assets/img4.png)
+### Horscope:
+![Image](assets/img2.png)
+### APIS:
+![Image](assets/img3.png)
 
 ## Project Repo:
+https://github.com/nadineb1160/astrodash
 
-[GitHub](https://github.com/nadineb1160)
+Note: This is fork from project, updated backend and new frontend
 ## Deployed Link:
 
 
