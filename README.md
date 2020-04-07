@@ -73,7 +73,7 @@ https://nadineb1160.github.io/astroDash-Project/
 [GitHub](https://github.com/nadineb1160)
 
 - Kasey Chang (Backend)
-- Rand Hunt (Minimal work is his on this iteration)
+- Rand Hunt (Minimal work on his on this iteration)
 
 ### License
 #
