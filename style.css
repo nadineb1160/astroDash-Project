@@ -52,7 +52,7 @@ font-family:verdana, Helvetica;
 /* Heading Link - AstroDash */
 #heading a {
   color: white;
-  margin: 40px;
+  /* margin: 40px; */
 }
 
 /* Zodiac Signs */
