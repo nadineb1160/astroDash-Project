@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
+    <title>AstroDash</title>
+</head>
+
+<body>
+
+    <!-- Picture -->
+    <div class="uk-height-large uk-background-cover uk-light uk-flex uk-position-relative" uk-parallax="bgy: -200"
+        style="background-image: url('https://cdn.pixabay.com/photo/2019/11/07/17/07/universe-4609408_960_720.jpg');"
+        id="background">
+
+        <h1 class="uk-heading-medium" id="heading"><a href="index.html">AstroDash</a></h1>
+
+        <br>
+
+        <div class="uk-container-small" id="natal">
+            <!-- Chart Header -->
+            <h2 class="uk-position-top-right" id="natalChartHeading">
+                Fill in to view your
+                <br>
+                Natal Chart:
+            </h2>
+
+            <!-- Natal Chart -->
+            <div class="borderBox">
+                <div class="uk-position-top-right" id="natalChart">
+                    <script id="aonline" src="https://astro-app.net/apps-aon.js?ENcceefaffffdd141"></script>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://unpkg.com/moment-lunar@0.0.4/moment-lunar.min.js"></script>
+    <!-- <script src="script.js" type="text/javascript"></script> -->
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
+
+</body>
+
+</html>
