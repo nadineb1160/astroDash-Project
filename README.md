@@ -43,11 +43,14 @@ We then pivoted to a dashboard with an astrological theme so that more elements 
 ![Image](assets/img3.png)
 
 ## Project Repo:
-https://github.com/nadineb1160/astrodash
+Note: All frontend changed were added to new-front-end of forked repo
+https://github.com/nadineb1160/astrodash/tree/new-front-end
 
-Note: This is fork from project, updated backend and new frontend
+This is a copy of that branch:
+https://github.com/nadineb1160/astroDash-Project
+
 ## Deployed Link:
-
+https://nadineb1160.github.io/astroDash-Project/
 
 ## Technologies Used
 - Javascript - to create functionality of page
