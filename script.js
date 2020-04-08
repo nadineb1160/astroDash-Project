@@ -1,27 +1,3 @@
-// Photos for Horoscope
-var horoscopePic = {
-  CapricornIcon: "https://cdn.pixabay.com/photo/2017/07/29/18/41/capricorn-2552366__340.png",
-  AquariusIcon: "https://cdn.pixabay.com/photo/2017/07/29/13/24/aquarius-2551502__340.png",
-  PiscesIcon: "https://cdn.pixabay.com/photo/2017/07/29/15/56/pisces-2551918__340.png",
-  AriesIcon: "https://cdn.pixabay.com/photo/2017/07/28/22/02/aries-2549974__340.png",
-  TaurusIcon: "https://cdn.pixabay.com/photo/2017/07/28/22/46/taurus-2550112__340.png",
-  GeminiIcon: "https://cdn.pixabay.com/photo/2017/07/28/23/22/gemini-2550197__340.png",
-  CancerIcon: "https://cdn.pixabay.com/photo/2017/07/29/13/07/cancer-2551431__340.png",
-  LeoIcon: "https://cdn.pixabay.com/photo/2017/07/29/12/19/leo-2551352__340.png",
-  VirgoIcon: "https://cdn.pixabay.com/photo/2017/07/29/18/09/virgo-2552259_960_720.png",
-  LibraIcon: "https://cdn.pixabay.com/photo/2017/07/29/19/42/libra-2552502__340.png",
-  ScorpioIcon: "https://cdn.pixabay.com/photo/2017/07/29/16/44/scorpio-2552035__340.png",
-  SagittariusIcon: "https://cdn.pixabay.com/photo/2017/07/29/12/37/sagittarius-2551400__340.png",
-}
-
-// General Images
-var astroImg = "https://cdn.pixabay.com/photo/2019/04/30/01/02/vintage-4167444_960_720.png";
-var moonImg = "https://cdn.pixabay.com/photo/2017/02/10/15/57/full-moon-2055469__340.jpg";
-var starImg = "https://cdn.pixabay.com/photo/2018/08/08/08/37/star-card-3591581_960_720.jpg";
-var vintageImg = "https://cdn.pixabay.com/photo/2018/05/17/15/24/armillar-ball-3408811__340.jpg";
-
-var bg_bottom = "https://cdn.pixabay.com/photo/2016/07/17/16/19/stars-1524180_960_720.jpg";
-
 var resp = "";
 var bday, astrosign, czodiac;
 var owmapikey = "8164cdd41308f159d85ff4ef8f3b5171"; // openweathermap.org
@@ -150,6 +126,9 @@ $(document).ready(function () {
       var srcURL = horoscopePic[icon];
 
       $("#horoscopeImg").attr("src", srcURL);
+
+      
+      $("#horoscopeText").text(horoscopeInfo[astrosign]);
 
       getHoroscope1(astrosign, getHoroscopeData1(getHoroscope2(astrosign, getHoroscopeData2)));
 
