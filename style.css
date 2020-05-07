@@ -18,6 +18,16 @@ html {
   height: 100vh;
 }
 
+#natal {
+  background: url("https://cdn.pixabay.com/photo/2019/11/07/17/07/universe-4609408_960_720.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
 /* Error Message */
 .error
 {
@@ -225,4 +235,5 @@ h3 {
   top: 100px;
   right: 50px;
   text-align: center;
+  color: white;
 }
